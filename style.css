@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=family=Fira+Code");
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+}
+.sidebar {
+  width: 25%;
+  /* height: 1000px;
+  overflow-y: auto; */
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  /* display: inline-block; */
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.sidebar ul li:hover {
+  color: blue;
+}
+.main {
+  /* text-align: center; */
+  width: 75%;
+  line-height: 24px;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.comment {
+  color: #229977;
+}
+
+.experience {
+  margin-top: 50px;
+}
+.experience h4 {
+  color: orange;
+  /* text-decoration: underline; */
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.experience-main {
+  width: 95%;
+  margin-top: 25px;
+}
+
+.compsany {
+  /* text-decoration: ud; */
+}
+.skills {
+  margin-top: 50px;
+}
+.skills h4 {
+  color: orange;
+  /* text-decoration: underline; */
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.box {
+  border: 1px solid;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.social {
+  margin-top: 50px;
+}
+.social h4 {
+  color: orange;
+  /* text-decoration: underline; */
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.link-img img {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+.resume a {
+  color: blue;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-right: 20px;
+}
