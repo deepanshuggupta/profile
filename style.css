@@ -14,8 +14,8 @@ body {
 }
 .sidebar {
   width: 25%;
-  /* height: 1000px;
-  overflow-y: auto; */
+  position: fixed;
+  overflow-y: auto;
 }
 
 .sidebar ul {
@@ -25,13 +25,22 @@ body {
 .sidebar ul li {
   /* display: inline-block; */
   padding: 10px 25px;
-  cursor: pointer;
 }
 .sidebar ul li:hover {
   color: blue;
 }
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul li a:hover {
+  text-decoration: none;
+  color: blue;
+}
 .main {
   /* text-align: center; */
+  left: 25%;
+  position: absolute;
   width: 75%;
   line-height: 24px;
 }
@@ -112,4 +121,39 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   margin-right: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+}
+.name:hover {
+  color: red !important;
+}
+.title {
+  font-size: 14px;
+  color: white !important;
+}
+
+.education {
+  margin-top: 50px;
+}
+.education h4 {
+  color: orange;
+  /* text-decoration: underline; */
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.resume-pdf {
+  color: red;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.resume-pdf:hover {
+  color: white;
 }
